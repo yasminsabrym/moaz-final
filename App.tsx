@@ -36,7 +36,7 @@ const RemindersOverview = () => {
         name="ReminderList"
         component={ReminderList}
         options={({ navigation }) => ({
-          title: "Reminders",
+          title: "My Reminder App",
           headerRight: ({ tintColor }) => (
             <Pressable onPress={() => navigation.navigate("ModifyReminder")}>
               <MaterialCommunityIcons
